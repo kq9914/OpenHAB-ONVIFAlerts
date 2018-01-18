@@ -1,12 +1,12 @@
 # OpenHAB-ONVIFAlerts
 
-# What is this?
+#### What is this?
 it's a script utilizing the guts of [hicknotify](https://github.com/ccontavalli/hicknotify) by ccontavalli to integrate ONVIF cameras (primarily Hikvision) with OpenHAB by setting an OpenHAB contact object to "OPEN" when a video motion detector event is detected by the camera.
 
 Take a look at the hicknotify readme for more information on dampening, etc... a lot of the functionality in the original script was removed so that the logic could be done in OpenHAB rather than in the script.
 
-# Example with one camera and video motion detection alerts triggering the OpenHAB contact VMD_FrontDoor to OPEN when motion is detected.  
-'''json
+#### Example with one camera and video motion detection alerts triggering the OpenHAB contact VMD_FrontDoor to OPEN when motion is detected.  
+```json
 {
    "Cameras":[
       {
