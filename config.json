@@ -1,0 +1,23 @@
+{
+   "Cameras":[
+      {
+         "Url":"http://192.168.1.121/ISAPI/Event/notification/alertStream",
+         "Name":"Front Door",
+         "Username":"admin",
+         "Password":"12345",
+         "VMDAlarmEnable":true,
+         "LineCrossAlarmEnable":false,
+         "IOAlarmEnable":false,
+         "VMDTarget":"VMD_FrontDoor",
+         "LineCrossTarget":"",
+         "IOAlarmTarget":""
+      }
+   ],
+   "DampeningTime":30,
+   "WatchdogTime":10,
+   "ErrorRetryTime":5,
+   "OpenHABHost":"192.168.1.110:8080",
+   "OpenHABBasicAuth":true,
+	 "OpenHABUsername":"user1",
+	 "OpenHABPassword":"password123"
+}
