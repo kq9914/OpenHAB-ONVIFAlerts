@@ -27,8 +27,8 @@ Take a look at the hicknotify readme for more information on dampening, etc... a
    "ErrorRetryTime":5,
    "OpenHABHost":"192.168.1.110:8080",
    "OpenHABBasicAuth":true,
-	 "OpenHABUsername":"user1",
-	 "OpenHABPassword":"password123"
+   "OpenHABUsername":"user1",
+   "OpenHABPassword":"password123"
 }
 ```
 #### How to use
