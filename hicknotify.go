@@ -177,7 +177,7 @@ func SendMail(config Config, event Event, now time.Time) {
 
     fmt.Println("SENDING NOTIFICATION FOR", event, event.camera.CameraName, now) 
     client := &http.Client{}
-    urlstr := fmt.Sprintf("http://%s/CMD?%s=ON", config.OpenHABHost, event.camera.VMDTarget) 
+    urlstr := fmt.Sprintf("http://%s/CMD?%s=OPEN", config.OpenHABHost, event.camera.VMDTarget) 
     request, err := http.NewRequest("GET", urlstr, nil)
     if config.OpenHABBasicAuth {
 	  request.SetBasicAuth(config.OpenHABUsername, config.OpenHABPassword)
@@ -196,7 +196,7 @@ func SendMail(config Config, event Event, now time.Time) {
 
     fmt.Println("SENDING NOTIFICATION FOR", event, event.camera.CameraName, now) 
     client := &http.Client{}
-    urlstr := fmt.Sprintf("http://%s/CMD?%s=ON", config.OpenHABHost, event.camera.VMDTarget) 
+    urlstr := fmt.Sprintf("http://%s/CMD?%s=OPEN", config.OpenHABHost, event.camera.VMDTarget) 
     request, err := http.NewRequest("GET", urlstr, nil)
     if config.OpenHABBasicAuth {
 	  request.SetBasicAuth(config.OpenHABUsername, config.OpenHABPassword)
@@ -214,7 +214,7 @@ func SendMail(config Config, event Event, now time.Time) {
 
     fmt.Println("SENDING NOTIFICATION FOR", event, event.camera.CameraName, now) 
     client := &http.Client{}
-    urlstr := fmt.Sprintf("http://%s/CMD?%s=ON", config.OpenHABHost, event.camera.VMDTarget) 
+    urlstr := fmt.Sprintf("http://%s/CMD?%s=OPEN", config.OpenHABHost, event.camera.VMDTarget) 
     request, err := http.NewRequest("GET", urlstr, nil)
     if config.OpenHABBasicAuth {
 	  request.SetBasicAuth(config.OpenHABUsername, config.OpenHABPassword)
