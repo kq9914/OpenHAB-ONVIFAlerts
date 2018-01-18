@@ -33,3 +33,8 @@ Take a look at the hicknotify readme for more information on dampening, etc... a
 ```
 #### How to use
 build the go file and then put config.json in the same directory as the executable 
+
+
+#### What's not working
+Right now, only video motion detection will trigger alerts.  LineCrossing and IO will hopefully come later.  
+I don't know if this works for anything other than Hikvision (and clones). 
