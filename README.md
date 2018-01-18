@@ -30,3 +30,6 @@ Take a look at the hicknotify readme for more information on dampening, etc... a
 	 "OpenHABUsername":"user1",
 	 "OpenHABPassword":"password123"
 }
+
+#### How to use
+build the go file and then put config.json in the same directory as the executable 
